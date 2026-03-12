@@ -87,7 +87,7 @@ Key specifications include:
 The folded dipole’s higher impedance and wide bandwidth make it ideal for use with detectors and measurement instruments, providing more accurate readings of received signal strength. Its simple design ensures that it can be used as a **sensitive receiver element** while maintaining a predictable radiation pattern and polarization. This type of antenna is commonly used in antenna trainers and experimental setups to observe and measure electromagnetic wave behavior.
 
 <p align="center">
-    <img src="Antenna/Antenna/IMG_4282.jpg" alt="Folded Dipole with Detector Antenna" width="600">
+    <img src="Antenna/IMG_4282.jpg" alt="Folded Dipole with Detector Antenna" width="600">
 </p>
 
 ### Slot Antenna
@@ -123,7 +123,7 @@ Key specifications include:
 The collinear design enhances directivity and overall gain without sacrificing horizontal coverage, making it ideal for communication systems that require long-range coverage with uniform signal distribution in all directions horizontally. Proper phasing and element spacing are critical to optimize performance and minimize interference or nulls in the radiation pattern.
 
 <p align="center">
-    <img src="Antenna/IMG_4284.jpg.jpg" alt="Combined Collinear Array Antenna" width="600">
+    <img src="Antenna/IMG_4284.jpg" alt="Combined Collinear Array Antenna" width="600">
 </p>
 ### Dipole Antenna (1/4 λ)
 
@@ -218,3 +218,78 @@ The 3/2 λ dipole produces **additional lobes** compared to the half-wave dipole
     <img src="Antenna/IMG_4290.jpg" alt="Dipole Antenna 3/2 λ" width="600">
 </p>
 
+### Phased Array 2-Element (1/4 λ) Antenna
+
+The Phased Array 2-Element Antenna with quarter-wavelength (λ/4) spacing is a simple **directional array antenna** consisting of two elements fed with a controlled phase difference to steer the main lobe in a desired direction. This design demonstrates the principle of beamforming and constructive/destructive interference in antenna arrays.
+
+Key specifications and features include:  
+- **Type:** 2-element phased array  
+- **Element length:** 1/4 λ each  
+- **Element spacing:** 1/4 λ between elements  
+- **Frequency range:** Determined by element length; typically VHF/UHF bands  
+- **Impedance:** Requires careful matching depending on phase shift  
+- **Radiation pattern:** Directional with a main lobe determined by phase difference; reduced sidelobes compared to single elements  
+- **Applications:** Beam steering, experimental studies of phased arrays, directional communication  
+
+The 2-element phased array demonstrates how **phase differences between elements** can control the direction of maximum radiation. By adjusting the relative phase, the antenna can steer its main beam without physically moving the structure. This principle is widely used in modern radar, wireless communication, and adaptive antenna systems for **enhanced directivity and signal control**.
+
+<p align="center">
+    <img src="Antenna/IMG_4291.jpg" alt="Phased Array 2-Element 1/4 λ" width="600">
+</p>
+
+### Yagi-Uda Antenna (Simple 5 Elements)
+
+The Yagi-Uda antenna with 5 elements is a **directional antenna** widely used in television reception, point-to-point communication, and amateur radio. It consists of a **driven element (dipole), a reflector, and three directors**, arranged along a boom to focus radiated energy in a single direction, increasing gain and directivity.
+
+Key specifications and features include:  
+- **Type:** Directional Yagi-Uda antenna  
+- **Number of elements:** 5 (1 driven element, 1 reflector, 3 directors)  
+- **Frequency range:** Typically VHF/UHF, depending on element lengths  
+- **Impedance:** Approximately 50–75 Ω, depending on the driven element design  
+- **Radiation pattern:** Highly directional with a main lobe along the boom axis and reduced back radiation  
+- **Gain:** Moderate to high, improved by multiple directors  
+- **Applications:** TV reception, long-range communication, and experimental directional antenna studies  
+
+The Yagi-Uda design enhances forward radiation while minimizing backward radiation. Directors focus the energy, and the reflector improves the front-to-back ratio. Proper element spacing and sizing are essential to achieve the desired gain, beamwidth, and impedance characteristics, making it an effective and widely adopted antenna for **directional communication applications**.
+
+<p align="center">
+    <img src="Antenna/IMG_4292.jpg" alt="Yagi-Uda Antenna 5 Elements" width="600">
+</p>
+
+### Quarter-Wave Monopole Antenna
+
+The Quarter-Wave Monopole Antenna is one of the simplest and most widely used antennas in wireless communication. It consists of a **single vertical conductor** mounted over a conductive ground plane, with a length equal to **one-quarter of the operating wavelength (λ/4)**. The ground plane acts as a reflective surface, effectively forming a virtual image of the antenna to complete the radiating structure.
+
+Key specifications and features include:  
+- **Type:** Monopole antenna  
+- **Length:** λ/4 of the operating frequency  
+- **Frequency range:** Determined by element length; commonly VHF/UHF bands  
+- **Impedance:** Approximately 36–50 Ω when mounted over an adequate ground plane  
+- **Radiation pattern:** Omni-directional in the horizontal plane  
+- **Polarization:** Vertical  
+- **Applications:** Mobile communication, FM broadcasting, and portable wireless systems  
+
+The quarter-wave monopole provides a **compact and efficient design** with predictable radiation characteristics. Its omnidirectional horizontal pattern makes it ideal for applications where the direction of signal reception or transmission is variable. Proper use of a ground plane is essential for efficient radiation and impedance matching.
+
+<p align="center">
+    <img src="Antenna/IMG_4293.jpg" alt="Yagi-Uda Antenna 5 Elements" width="600">
+</p>
+
+### Loop Antenna
+
+The Loop Antenna is a type of **resonant antenna** in which the conductor forms a closed loop, typically circular, square, or rectangular. It is widely used for receiving signals in AM radio, direction finding, and experimental studies due to its compact size and predictable radiation characteristics.
+
+Key specifications and features include:  
+- **Type:** Resonant loop antenna  
+- **Configuration:** Single-turn or multi-turn conductive loop  
+- **Frequency range:** Determined by the loop circumference; typically VLF, LF, MF, or HF bands  
+- **Impedance:** Varies depending on loop size and turns; often matched using tuning networks  
+- **Radiation pattern:** Broadside for small loops, directional along the plane of the loop for large loops  
+- **Polarization:** Linear, depending on orientation  
+- **Applications:** AM reception, signal direction finding, and laboratory antenna experiments  
+
+Loop antennas can be designed as **small loops** (circumference << λ) for high selectivity and low signal capture, or **resonant loops** (circumference ≈ λ) for efficient radiation and reception. They are particularly useful in applications where **compact size and controlled directionality** are desired.
+
+<p align="center">
+    <img src="Antenna/IMG_4294.jpg" alt="Loop Antenna" width="600">
+</p>
