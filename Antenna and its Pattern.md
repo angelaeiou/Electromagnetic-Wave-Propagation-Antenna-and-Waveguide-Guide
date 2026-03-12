@@ -293,3 +293,171 @@ Loop antennas can be designed as **small loops** (circumference << λ) for high 
 <p align="center">
     <img src="Antenna/IMG_4294.jpg" alt="Loop Antenna" width="600">
 </p>
+
+### Yagi-Uda Antenna (Folded Dipole, 3 Elements)
+
+The Yagi-Uda Antenna with a folded dipole as the driven element and three elements is a **compact directional antenna** commonly used in VHF/UHF communication and signal reception. The folded dipole improves impedance matching, while the reflector and single director focus the radiation to enhance directivity and gain.
+
+Key specifications and features include:  
+- **Type:** Directional Yagi-Uda antenna  
+- **Number of elements:** 3 (1 folded dipole as driven element, 1 reflector, 1 director)  
+- **Frequency range:** Typically VHF/UHF, depending on element lengths  
+- **Impedance:** Approximately 300 Ω for folded dipole; can be matched to 50 Ω with a matching network  
+- **Radiation pattern:** Directional along the boom axis, with a main lobe forward and reduced back radiation  
+- **Gain:** Moderate, higher than a single dipole due to additional elements  
+- **Applications:** TV reception, point-to-point communication, and experimental directional antenna studies  
+
+The folded dipole serves as the main radiating element, while the reflector and director shape the radiation pattern for **enhanced forward gain** and improved front-to-back ratio. Proper spacing and element length are critical to maximize antenna efficiency and achieve the desired directivity.
+
+<p align="center">
+    <img src="Antenna/IMG_4295.jpg" alt="Yagi-Uda Folded Dipole 3 Elements" width="600">
+</p>
+
+### Phased Array Antenna (λ/2)
+
+The Phased Array Antenna with half-wavelength (λ/2) element spacing is a **directional array antenna** where multiple elements are arranged in a line and fed with controlled phase differences to steer the main beam in a desired direction. This design demonstrates the principle of **beamforming** for enhanced directivity and gain.
+
+Key specifications and features include:  
+- **Type:** Linear phased array  
+- **Element length:** λ/2 for each radiating element  
+- **Element spacing:** λ/2 between elements  
+- **Frequency range:** Determined by element length; typically VHF/UHF bands  
+- **Impedance:** Requires matching depending on the number of elements and phase shift  
+- **Radiation pattern:** Highly directional along the array axis; beam direction controlled by phase difference  
+- **Applications:** Radar systems, beam steering, directional communication, and antenna array studies  
+
+The λ/2 spacing allows the array to achieve **constructive interference in the desired direction** while minimizing grating lobes, providing precise beam control. Phased arrays are widely used in **modern communication and radar systems** where electronically controlled directionality is required without physically moving the antenna.
+
+<p align="center">
+    <img src="Antenna/IMG_4296.jpg" alt="Phased Array Antenna λ/2" width="600">
+</p>
+
+### Microstrip Patch Antennas (Planar Radiators)
+
+Microstrip Patch Antennas are **planar antennas** consisting of a thin metallic patch mounted over a grounded dielectric substrate. They are widely used in modern wireless communication due to their **compact size, low profile, and ease of fabrication**. The patch acts as a resonator, radiating electromagnetic waves from its edges.
+
+Key specifications and features include:  
+- **Type:** Planar microstrip patch antenna  
+- **Configuration:** Metallic patch (rectangular, circular, or other shapes) over a dielectric substrate with ground plane  
+- **Frequency range:** Typically UHF to microwave bands, depending on patch dimensions and substrate  
+- **Impedance:** Usually designed for 50 Ω feed  
+- **Radiation pattern:** Broadside, generally directional perpendicular to the patch  
+- **Polarization:** Linear (can be circular with special design)  
+- **Applications:** Mobile devices, GPS, Wi-Fi, satellite communication, and IoT systems  
+
+Microstrip patch antennas provide **lightweight, low-cost, and easily integrated solutions** for modern wireless applications. Their planar structure makes them suitable for conformal or embedded designs, and careful selection of patch dimensions and substrate material allows optimization of resonance, gain, and bandwidth.
+
+<p align="center">
+    <img src="Antenna/IMG_4297.jpg" alt="Microstrip Patch Antenna" width="600">
+</p>
+
+### Broadside Array Antenna
+
+The Broadside Array Antenna is a **linear array of radiating elements** designed to produce maximum radiation perpendicular to the axis of the array. All elements are fed **in phase**, which creates a strong **broadside main lobe** and provides high directivity in the perpendicular direction.
+
+Key specifications and features include:  
+- **Type:** Linear broadside array  
+- **Element configuration:** Multiple identical elements arranged along a line  
+- **Element spacing:** Typically λ/2 to avoid grating lobes  
+- **Frequency range:** Determined by the operating wavelength of the elements; commonly used in VHF/UHF bands  
+- **Impedance:** Requires proper matching depending on number of elements and feed network  
+- **Radiation pattern:** Maximum radiation perpendicular to the array axis (broadside); reduced radiation along the axis  
+- **Applications:** Broadcasting, radar, directional communication, and experimental array studies  
+
+Broadside arrays allow **enhanced gain** and a controlled radiation pattern while keeping the beam direction fixed perpendicular to the array. Proper spacing and phasing of elements are critical to optimize the **main lobe and minimize sidelobes**, making them suitable for applications that require **uniform directional coverage**.
+
+<p align="center">
+    <img src="Antenna/IMG_4298.jpg" alt="Broadside Array Antenna" width="600">
+</p>
+
+### Yagi-Uda Antenna (Simple 7 Elements)
+
+The Yagi-Uda Antenna with 7 elements is a **directional antenna** widely used in television reception, point-to-point communication, and amateur radio. It consists of a **driven element (dipole), one reflector, and five directors** arranged along a boom to focus energy in a single direction, enhancing gain and directivity.
+
+Key specifications and features include:  
+- **Type:** Directional Yagi-Uda antenna  
+- **Number of elements:** 7 (1 driven element, 1 reflector, 5 directors)  
+- **Frequency range:** Typically VHF/UHF, depending on element lengths  
+- **Impedance:** Approximately 50–75 Ω depending on the driven element design  
+- **Radiation pattern:** Highly directional with main lobe along the boom axis and reduced back radiation  
+- **Gain:** High, due to multiple directors focusing energy forward  
+- **Applications:** TV reception, long-range point-to-point communication, and experimental directional antenna studies  
+
+The multiple directors increase the forward gain and improve the **front-to-back ratio**, reducing interference from signals coming from unwanted directions. Proper element spacing and sizing are crucial for maximizing efficiency, achieving the desired radiation pattern, and minimizing impedance mismatch.
+
+<p align="center">
+    <img src="Antenna/IMG_4299.jpg" alt="Yagi-Uda Antenna 7 Elements" width="600">
+</p>
+
+### Folded Dipole Antenna
+
+The Folded Dipole Antenna is a variation of the standard dipole where **two parallel conductive elements** are connected at both ends. This design increases the feed-point impedance, making it easier to match with standard transmission lines and providing broader bandwidth compared to a single dipole.
+
+Key specifications and features include:  
+- **Type:** Folded dipole  
+- **Configuration:** Two parallel conductors connected at both ends, fed at the center  
+- **Frequency range:** Determined by the total length of the dipole; commonly used in VHF/UHF bands  
+- **Impedance:** Approximately 300 Ω, easily matched to 50 Ω using a balun or matching network  
+- **Radiation pattern:** Broadside, similar to a standard dipole  
+- **Polarization:** Linear  
+- **Applications:** TV and FM reception, antenna arrays, feed element for Yagi-Uda antennas, and laboratory studies  
+
+The folded dipole offers **improved impedance matching and wider bandwidth** while maintaining predictable radiation characteristics. It is commonly used as a **driven element in Yagi-Uda antennas** and other directional arrays for enhanced performance.
+
+<p align="center">
+    <img src="Antenna/IMG_4300.jpg" alt="Folded Dipole Antenna" width="600">
+</p>
+
+### Periodic Antenna
+
+A Periodic Antenna is a type of antenna structure composed of **repeated elements arranged periodically** along a line or surface. The periodic arrangement allows the antenna to exhibit **specific radiation characteristics**, such as beam shaping, frequency selectivity, and enhanced directivity, based on the spacing and number of elements.
+
+Key specifications and features include:  
+- **Type:** Linear or planar periodic array  
+- **Element configuration:** Identical elements repeated at uniform intervals  
+- **Element spacing:** Typically λ/2 or designed according to desired beam properties  
+- **Frequency range:** Determined by element length and spacing; commonly VHF, UHF, or microwave bands  
+- **Impedance:** Depends on the number of elements and feed structure; requires matching for standard transmission lines  
+- **Radiation pattern:** Can be directional or broadside depending on design; beam direction controlled by element phase and spacing  
+- **Applications:** Beamforming arrays, phased array antennas, radar systems, and experimental antenna studies  
+
+Periodic antennas allow **precise control of the main lobe and sidelobes** through element spacing and phasing. They are widely used in **modern communication and radar systems** to enhance gain, steer beams, and create desired radiation patterns without physically moving the antenna.
+
+<p align="center">
+    <img src="Antenna/IMG_4301.jpg" alt="Periodic Antenna" width="600">
+</p>
+
+### Rhombus Antenna
+
+The Rhombus Antenna is a **high-gain directional wire antenna** with a diamond-shaped (rhombus) configuration. It consists of long, sloping wires forming a rhombus, supported by poles or masts at the corners. This antenna is designed to provide **broad bandwidth, high directivity, and low vertical angle radiation**, making it ideal for long-distance HF communication.
+
+Key specifications and features include:  
+- **Type:** Wire directional antenna  
+- **Configuration:** Four wires forming a rhombus, typically fed at one corner with a transmission line  
+- **Frequency range:** Typically HF bands (3–30 MHz), depending on rhombus dimensions  
+- **Impedance:** Depends on wire length, rhombus shape, and height above ground; often matched using a transformer or matching network  
+- **Radiation pattern:** Directional along the long axis of the rhombus, with low-angle radiation for long-distance transmission  
+- **Applications:** Long-distance HF communication, amateur radio DXing, and point-to-point HF links  
+
+The rhombus design provides **high gain over a wide bandwidth** with a relatively simple structure. Its directional characteristics and low-angle radiation make it suitable for **skip-distance or skywave propagation** where long-distance coverage is required.
+
+<p align="center">
+    <img src="Antenna/IMG_4302.jpg" alt="Rhombus Antenna" width="600">
+</p>
+
+### Yagi-Uda Antenna Feed and Connector Setup
+
+The image shows a **Yagi-Uda antenna** mounted on a support structure with a **coaxial feed connection**. The driven element of the antenna is connected to a transmission line via a **BNC or UHF connector**, allowing signals to be transmitted to or received from the antenna. This type of setup is commonly used for **directional signal experiments, laboratory measurements, and point-to-point communication systems**.
+
+Key specifications and features include:  
+- **Antenna type:** Yagi-Uda, directional  
+- **Mounting:** Elevated on a metallic support rod to reduce ground interference  
+- **Feed mechanism:** Coaxial cable with BNC/UHF connectors for reliable connection  
+- **Purpose:** Transmit and receive RF signals with minimal loss and clear directional pattern  
+- **Applications:** Signal propagation studies, directional communication experiments, antenna testing  
+
+The connector setup ensures **stable electrical contact** and proper impedance matching, which is critical for reducing reflections and maintaining signal integrity. The Yagi-Uda’s directional elements work in conjunction with this feed to produce a **focused radiation pattern**, maximizing gain in the desired direction.
+
+<p align="center">
+    <img src="Antenna/IMG_4303.png" alt="Yagi-Uda Antenna Feed Setup" width="600">
+</p>
