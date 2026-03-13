@@ -8,6 +8,6 @@ Through hands-on experimentation, students are able to analyze how microwave com
 The goal of this repository is to serve as a comprehensive reference for waveguide and antenna laboratory work, allowing students and researchers to review experimental methods, understand microwave measurement techniques, and document their findings in a structured format.
 
 ## Table of Contents
-* [Antenna Designs and its Bay Pattern](#antenna-designs-and-its-bay-pattern)
+* [Antenna Designs and its Bay Pattern](https://github.com/angelaeiou/Antenna-Designs/blob/main/Antenna%20and%20its%20Pattern.md)
 * [Waveguide Components](#waveguide-components)
 
