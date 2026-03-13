@@ -459,7 +459,7 @@ Key specifications and features include:
 The connector setup ensures **stable electrical contact** and proper impedance matching, which is critical for reducing reflections and maintaining signal integrity. The Yagi-Uda’s directional elements work in conjunction with this feed to produce a **focused radiation pattern**, maximizing gain in the desired direction.
 
 <p align="center">
-    <img src="Antenna/IMG_4303.png" alt="Yagi-Uda Antenna Feed Setup" width="600">
+    <img src="Antenna/IMG_4303.jpg" alt="Yagi-Uda Antenna Feed Setup" width="600">
 </p>
 
 ### Matching Stub for Antenna Trainer
@@ -476,7 +476,7 @@ Key specifications and features include:
 The matching stub allows users to observe **how adjusting the stub position affects signal transmission and reflection**, providing hands-on understanding of antenna impedance and VSWR (Voltage Standing Wave Ratio) in practical RF systems.
 
 <p align="center">
-    <img src="Antenna/IMG_4304.png" alt="Matching Stub Antenna Trainer" width="600">
+    <img src="Antenna/IMG_4304.jpg" alt="Matching Stub Antenna Trainer" width="600">
 </p>
 
 ### Folded Dipole Receiver Setup
@@ -492,7 +492,7 @@ Key specifications and features include:
 
 This receiver setup allows users to observe how the antenna captures signals from a transmitter, visualize them on an oscilloscope, and analyze waveform characteristics such as amplitude, frequency, and noise. It provides a practical introduction to antenna behavior, signal propagation, and RF measurement techniques.
 
-<p align="center"> <img src="Antenna/IMG_4307.png" alt="Folded Dipole Receiver Setup" width="600"> </p>
+<p align="center"> <img src="Antenna/IMG_4307.jpg" alt="Folded Dipole Receiver Setup" width="600"> </p>
 
 ### RF Detector Setup
 
