@@ -507,7 +507,7 @@ Key specifications and features include:
 
 This RF detector setup allows users to observe how the module responds to RF sources, visualize signals on connected devices, and analyze characteristics such as amplitude, frequency, and noise. It provides a practical introduction to **RF sensing, signal propagation, and measurement techniques.**
 
-<p align="center"> <img src="Antenna/IMG_4308.png" alt="RF Detector Setup" width="600"> </p>
+<p align="center"> <img src="Antenna/IMG_4308.jpg alt="RF Detector Setup" width="600"> </p>
 
 ### Receiving Mast Setup
 
@@ -522,4 +522,4 @@ Key specifications and features include:
 
 This receiving mast setup allows users to observe how antenna height and orientation affect signal strength, visualize captured waveforms on measurement devices, and analyze RF propagation characteristics. It provides a practical introduction to **antenna support structures, reception techniques, and experimental RF analysis.**
 
-<p align="center"> <img src="Antenna/IMG_4309.png" alt="Receiving Mast Setup" width="600"> </p>
+<p align="center"> <img src="Antenna/IMG_4309.jpg" alt="Receiving Mast Setup" width="600"> </p>
