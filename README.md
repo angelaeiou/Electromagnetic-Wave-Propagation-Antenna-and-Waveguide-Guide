@@ -9,5 +9,5 @@ The goal of this repository is to serve as a comprehensive reference for wavegui
 
 ## Table of Contents
 * [Antenna Designs and its Bay Pattern](https://github.com/angelaeiou/Antenna-Designs/blob/main/Antenna%20and%20its%20Pattern.md)
-* [Waveguide Components](#waveguide-components)
+* [Waveguide Components]([#waveguide-components](https://github.com/angelaeiou/Antenna-Designs/blob/main/Waveguide.md))
 
